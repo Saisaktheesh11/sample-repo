@@ -1,0 +1,120 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    inline-size: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-block-end: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-block-start: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Remove underline and color change on hover */
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-block-end: 20px;
+    color: #333; /* Dark text color */
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666; /* Slightly darker grey text color */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-block-end: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    inset-block-end: 0;
+    inline-size: 100%;
+}
+
+/* Specific styles for different sections */
+#about {
+    background-color: #f0e68c; /* Light goldenrod yellow */
+}
+
+#skills {
+    background-color: #87cefa; /* Light sky blue */
+}
+
+#projects {
+    background-color: #ffcccb; /* Light coral */
+}
+
+#contact {
+    background-color: #98fb98; /* Pale green */
+}
+
+/* Add Google Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply custom font styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
